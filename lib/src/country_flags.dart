@@ -232,7 +232,7 @@ class _FlagImage extends StatelessWidget {
       key: const Key('svgFlag'),
       si: ScalableImageSource.fromSI(
         rootBundle,
-        'packages/country_flags/res/si/$flagCode.si',
+        'packages/country_flags/res/svg/$flagCode.svg',
       ),
       fit: fit,
     );
