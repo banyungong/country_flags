@@ -1,6 +1,7 @@
 import 'package:country_flags/country_flags.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:jovial_svg/dom.dart';
 import 'package:jovial_svg/jovial_svg.dart';
 
 /// The shape of the flag.
@@ -228,6 +229,8 @@ class _FlagImage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
+
     return ScalableImageWidget.fromSISource(
       key: const Key('svgFlag'),
       si: ScalableImageSource.fromSvg(
