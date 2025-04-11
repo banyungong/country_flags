@@ -230,7 +230,7 @@ class _FlagImage extends StatelessWidget {
   Widget build(BuildContext context) {
     return ScalableImageWidget.fromSISource(
       key: const Key('svgFlag'),
-      si: ScalableImageSource.fromSI(
+      si: ScalableImageSource.fromSvg(
         rootBundle,
         'packages/country_flags/res/svg/$flagCode.svg',
       ),
